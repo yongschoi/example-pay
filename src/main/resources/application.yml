@@ -78,7 +78,7 @@ spring:
       username: scott
       password: tiger
   kafka:
-    bootstrap-servers: kafka:9091
+    bootstrap-servers: kafka:19091
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
